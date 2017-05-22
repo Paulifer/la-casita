@@ -1,0 +1,24 @@
+/*Añadiendo diseños a la casita*/
+body{
+	margin: 0;
+	padding: 0;
+}
+.contenedor{
+	margin: 0;
+	padding: 0;
+}
+.casa{
+	width: 200px;
+	height: 200px;
+}
+#paredes {
+	width: 200px;
+	height: 100px;
+	background: #5C1E05;
+}#techo {
+	border-bottom: 100px solid black;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
